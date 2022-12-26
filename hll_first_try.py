@@ -34,8 +34,8 @@ test_data = {"25UvU", "QHSr9", "bMv1w", "bQRpK", "F6qoP", "7mZbm", "uHhLl", "N7y
 
 
 k = 0
-# b = 2
-# m = 2^b => m = 4
+# b = 4
+# m = 2^b => m = 16
 
 registry_m = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
