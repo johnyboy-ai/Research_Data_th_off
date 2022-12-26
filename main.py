@@ -1,17 +1,14 @@
-# This is a sample Python script.
+#How to estimate the number of unique values (aka cardinality) within a very large dataset
+#HYperloglog
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    print("sa imi suga pla c++")
+def binary(self):
+    return bin(eval(self))
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+str_test = input("Characterul in hex:")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+str_test = '0x' + str_test
+
+
+print(str_test)
+print(binary(str_test))
